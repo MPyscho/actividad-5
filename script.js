@@ -1,9 +1,8 @@
-let nombreDeLaVariable = 'nombre de ususario';
-alert('¡Hola!');
-nombreDeLaVariable = prompt("introduzca un nombre");
-alert('Hola ' +nombreDeLaVariable)
-int i
-for(i=n;i<-1;i--)
-    {
+let nombre = prompt("introduzca su nombre");
+let nombreReverso = "";
 
+for (let i = nombre.length - 1; i >= 0; i--) {
+  nombreReverso += nombre[i];
 }
+
+console.log("¡Adiós " + nombreReverso + "!");
