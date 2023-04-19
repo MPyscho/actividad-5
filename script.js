@@ -1,4 +1,4 @@
-var nombre = prompt("Por favor, pon tu nombre aquí:");
+var nombre = prompt("introduzca su nombre");
 
 nombre = nombre.toLowerCase().replace(/\s+/g, '');
 
@@ -8,4 +8,4 @@ for (var i = nombre.length - 1; i >= 0; i--) {
     nombreAlReves += nombre[i];
 }
 
-alert("¡Adiós " + nombreAlReves + "!");
+alert("Hola " + nombreAlReves);
